@@ -5,8 +5,6 @@ document.getElementById("btnSearch").onclick = function () {
     let api = 'https://api.dictionaryapi.dev/api/v2/entries/en/'+ word.value
     if(word.value == ""){
         alert("Debes Ingresar una palabra")
-    }else if(!api){
-
     }else{
         fetch(api)
 	    .then(response => response.json())

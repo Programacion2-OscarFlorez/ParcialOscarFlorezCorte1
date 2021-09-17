@@ -1,0 +1,21 @@
+body {
+  background-color: azure;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.titled {
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+footer {
+  text-align: center;
+  margin-top: 300px;
+}
